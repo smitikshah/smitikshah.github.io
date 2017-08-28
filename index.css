@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  background: #fffafa;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+    display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+    }
+ main {
+     flex: 1 0 auto;
+ }
+
+<style type="text/css">
+.centerImage
+{
+text-align:center;
+display:block;
+align-content: center;
+}
+</style>
+
+img{
+   position: relative;
+   top: 50%;
+   left: 50%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+.resize {
+    width: 1000px;
+    height: auto;
+}
+
+.resize {
+    width: 1000px;
+    height: auto;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {	
+	display: inline-block;
+	text-decoration: none;
+}
+section { 
+    margin: 50px 0;
+}
+
+section ul {
+	text-align: center;
+}
+
+section a {
+	padding: 7px;
+    color: black;
+}
+
+section a:not(:first-child) {
+	margin-left: 20px;
+}
+
+section i {
+	vertical-align: middle;
+	transition: color .3s ease-in-out;	
+}
+
+section a:nth-child(1):hover i {
+	color: #3B5998;
+}
+
+section a:nth-child(2):hover i {
+	color: #4099FF;
+}
+
+section a:nth-child(3):hover i {
+	color: #007bb6;
+}
+
+section a:nth-child(4):hover i {
+	color: #ccc;
+}
+
+section a:nth-child(5):hover i {
+	color: orange;
+}
+section a:nth-child(6):hover i {
+	color: orange;
+}
+.img-with-text {
+    text-align: center;
+    align-content: center;
+}
+.moveimage
+{
+    position: relative;
+    top: 40px;
+}
+.moveicons
+{
+    position: relative;
+    top: 50px;
+}
+.textRoom
+{
+    position: relative;
+    top: 20px;
+}
+p{
+   font-size: 35px;
+   font-family: inherit;
+   font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+    color: deeppink;
+}
+p1{
+    margin-right: auto;
+    margin-left: inherit;
+   font-size: 25px;
+   font-family: sans-serif;
+}
+p2{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: inherit;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: grey;
+}
+p3{
+    font-size: 20px;
+    margin-top: 10px;
+}
